@@ -1,0 +1,530 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+    gap: 1em;
+}
+
+.logo{
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+header{
+    background-color: #5A0AEF;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+
+.menu{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    min-width: 200px;
+}
+
+.grid-section{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.aside{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+
+
+.footer{
+    grid-column: 1 / 3;
+    grid-row: 3;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color:#5A0AEF;
+    text-align: center;
+    height: fit-content;
+    padding: 5px 5px;
+}
+
+.footer p{
+    text-align: center;
+    color:black;
+    font-size: 2rem;
+}
+
+.footer h2{
+    text-align: center;
+}
+
+
+.imagenes-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.marvelFan{
+    color: black;
+}
+
+
+
+.fila1-Img{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.fila2-Img{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.fila3-Img{
+    grid-column: 3 / 4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.menuFlex{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.fila1-Img img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fila1-Img p{
+    font-size: 2rem;
+    transform: translate(50px, -130px);
+    color: black;
+}
+
+.fila1-Img img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 8px 24px;
+}
+
+.fila2-Img img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fila2-Img p{
+    font-size: 2rem;
+    transform: translate(5px, -130px);
+    color: black;
+}
+
+.fila2-Img img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 8px 24px;
+}
+
+.fila3-Img img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fila3-Img p{
+    font-size: 2rem;
+    transform: translate(60px, -130px);
+    color: black;
+}
+
+.fila3-Img img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 8px 24px;
+}
+
+.imgLogo{
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px;
+    margin-left: 5px;
+}
+
+.marvelFan{
+    display: flex;
+    position:absolute;
+    transform: translate(100px, -60px);
+    color: black;
+}
+
+a:hover{
+    color:rgb(252, 0, 0);
+}
+
+
+
+
+/* MEDIAS QUERIES*/
+
+@media (max-width:600px){
+
+    .menuFlex{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .fila1-Img img{
+        width:150px ;
+        height: 150px;
+    }
+
+    .fila2-Img img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fila3-Img img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fila1-Img p{
+        font-size: 1.5rem;
+        transform: translate(30px, -105px);
+        color: black;
+    }
+
+
+    .fila2-Img p{
+        font-size: 1.5rem;
+        transform: translate(0px, -105px);
+        color: black;
+    }
+
+    .fila3-Img p{
+        font-size: 1.5rem;
+        transform: translate(40px, -105px);
+        color: black;
+    }
+
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagenes-grid{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer{
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .h1-prod{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    #nuestrosVasos{
+        margin: 130px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .menuProd{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 10px;
+
+    }
+
+    .footerProd{
+        padding: 5px;
+        text-align: center;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuProd a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/* PRODUCTOS */
+
+.productos-grid-cont{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+
+.productos-grid-cont img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.productos-grid-cont img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 10px;
+}
+
+.h1-prod{
+    font-size: 3rem;
+    color: white;
+
+}
+
+.menuProd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 70%;
+    font-size: 20px;
+}
+
+
+
+.headerProd{
+    max-height: 100px;
+    background-color: #5A0AEF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#nuestrosMates{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+#nuestrasTazas{
+    grid-column: 2 / 4;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+#nuestrosVasos{
+    grid-column: 1 / 4;
+    grid-row: 3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+#nuestrosVasos h2{
+    position: absolute;
+    transform: translate(0px,-250px);
+}
+
+#nuestrosStickers{
+    grid-column: 1 / 2;
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+#nuestrasRemeras{
+    grid-column: 2 / 4;
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footerProd{
+    background-color: #5A0AEF;
+    max-height: 200px;
+    grid-column: 1 / 4;
+    grid-row: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.footerProd p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+}
+
+.img-mate.prod{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
