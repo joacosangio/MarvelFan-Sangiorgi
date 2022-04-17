@@ -15,6 +15,26 @@ body{
     margin: 0;
 }
 
+.body-nosotros{
+    background-image: url(/MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080\ \(4\).jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+.body-contactanos{
+    background-image: url(/MULTIMEDIA/Logo-Imagenes/Wakanda0.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+.body-donde-estamos{
+    background-image: url(/MULTIMEDIA/Logo-Imagenes/Prueba\ 2.jpg);
+}
+
 
 html{
     scroll-behavior: smooth;
