@@ -17,10 +17,9 @@ body{
 
 .body-nosotros{
     background-image: url(/MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080\ \(4\).jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
     background-position: center center;
-    margin: 0;
+    
+    
 }
 
 .body-contactanos{
@@ -37,6 +36,7 @@ body{
     background-size: cover;
     background-position: center center;
     margin: 0;
+    
 }
 
 
@@ -75,6 +75,7 @@ header{
 }
 
 .menu{
+    
     grid-column: 2 / 3;
     grid-row: 1;
     min-width: 200px;
@@ -362,27 +363,30 @@ a:hover{
         justify-items: center;
     }
 
-    .menuProd{
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        margin: 10px;
-
-    }
-
-    .footerProd{
-        padding: 5px;
-        text-align: center;
-        justify-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
     .menuProd a{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        padding: 3px;
+        margin: 5px;
+    }
+
+    .footerProd{
+        width: auto;
+        height: auto;
         align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .headerProd{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 }
 
@@ -459,8 +463,14 @@ a:hover{
 }
 
 
+
+
+.menuProd a{
+    padding: 40px;
+
+}
+
 .headerProd{
-    max-height: 100px;
     background-color: #5A0AEF;
     display: flex;
     justify-content: space-between;
@@ -535,14 +545,15 @@ a:hover{
 .footerProd{
     font-family: 'Courier New', Courier, monospace;
     background-color: #5A0AEF;
-    max-height: 200px;
     grid-column: 1 / 4;
     grid-row: 5;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
     text-align: center;
+    height: max-content;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -550,7 +561,6 @@ a:hover{
 .footerProd p{
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
     text-align: center;
 }
 
@@ -565,6 +575,10 @@ a:hover{
 /* CONTACTANOS */
 
 /*DONDE ESTAMOS */
+
+.header-donde{
+    background-color: rgba(0, 0, 128, 0);
+}
 
 
 
