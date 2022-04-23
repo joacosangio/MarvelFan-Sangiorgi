@@ -264,8 +264,22 @@ a:hover{
     color:rgb(252, 0, 0);
 }
 
+.menuindex{
+    display: flex;
+    justify-content: space-between;
+}
 
+.menuindex nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
 
+.menuFlex li{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
 
 /* MEDIAS QUERIES*/
 
@@ -281,6 +295,7 @@ a:hover{
 
     .menu{
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
     
@@ -383,13 +398,43 @@ a:hover{
 
 @media only screen and (max-width:768px){
 
+    .headerProd{
+    display: flex;
+    flex-direction: column;
+}
 
+.menuProd a{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 
+.menuFlex{
+    display: flex;
+    flex-direction: column;
+}
 
+.imagenes-grid{
+    display: flex;
+    flex-direction: column;
+}
 
+.fila2-Img{
+    display: flex;
+    align-items: flex-start;
+}
 
-
+.aside{
+    display: flex;
+    margin: right 200px;
+}
     
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
 }
 
 
