@@ -285,6 +285,18 @@ a:hover{
 
 @media only screen and (max-width:600px){
 
+    body{
+        font-size: 0.8rem;
+    }
+
+    .bodyProd{
+        font-size: 0.6rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
     .menuFlex{
         display: flex;
         flex-direction: column;
@@ -364,12 +376,14 @@ a:hover{
         flex-direction: column;
         padding: 0;
         margin: 0;
+        font-size: 0.5rem;
 
     }
 
     .h1-prod{
         font-size: 0.8rem;
         padding: 10px;
+        font-size:1rem ;
     }
 
     #nuestrosVasos{
@@ -385,6 +399,7 @@ a:hover{
         flex-direction: column;
         padding: 3px;
         margin: 5px;
+        font-size: 1.2rem;
     }
 
 
@@ -393,6 +408,11 @@ a:hover{
         display: flex;
         flex-direction: column;
         height: 100%;
+
+    }
+
+    section h2{
+        font-size: 1rem;
     }
 }
 
