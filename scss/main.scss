@@ -45,7 +45,7 @@ body{
 }
 
 .body-nosotros{
-    background-image: url("/MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080\ \(4\).jpg");
+    background-image: url("./MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080\ \(4\).jpg");
     background-position: $valor-center $valor-center;
     font-size: 0.8rem;
     position: relative;
@@ -56,7 +56,7 @@ body{
 }
 
 .body-contactanos{
-    background-image: url("/MULTIMEDIA/Logo-Imagenes/Wakanda0.jpg");
+    background-image: url("./MULTIMEDIA/Logo-Imagenes/Wakanda0.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: $valor-center $valor-center;
@@ -65,7 +65,7 @@ body{
 }
 
 .body-donde-estamos{
-    background-image: url("/MULTIMEDIA/Logo-Imagenes/Prueba\ 2.jpg");
+    background-image: url("./MULTIMEDIA/Logo-Imagenes/Prueba\ 2.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: $valor-center $valor-center;
