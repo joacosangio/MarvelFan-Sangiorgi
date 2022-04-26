@@ -5,41 +5,9 @@ body {
   background-size: cover;
   background-position: center center;
   margin: 0;
-  min-height: 100vh; }
-
-.bodyProd {
-  background-image: url("./ImgAvengers3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; }
-
-.body-nosotros {
-  background-image: url("../MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080 (4).jpg");
-  background-position: center center;
-  font-size: 0.8rem;
-  position: relative;
-  padding-bottom: 250px;
-  margin: 0; }
-
-.body-contactanos {
-  background-image: url("../MULTIMEDIA/Logo-Imagenes/Wakanda0.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 0;
-  min-height: 100vh; }
-
-.body-donde-estamos {
-  background-image: url("../MULTIMEDIA/Logo-Imagenes/Prueba 2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 0;
-  min-height: 100vh; }
+  min-height: 100vh;
+  color: white;
+  box-sizing: border-box; }
 
 html {
   scroll-behavior: smooth; }
@@ -237,8 +205,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
   body {
     font-size: 0.8rem; }
-  .bodyProd {
-    font-size: 0.6rem; }
   h2 {
     font-size: 1rem; }
   .menuFlex {
@@ -359,6 +325,12 @@ section h2 {
     flex-direction: column;
     padding: 0.5em; } }
 
+@media only screen and (max-width: 1440px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+
 /* PRODUCTOS */
 .productos-grid-cont {
   display: grid;
@@ -391,8 +363,9 @@ section h2 {
   box-shadow: 2px 4px 10px; }
 
 .h1-prod {
-  font-size: 3rem;
-  color: white; }
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 10px; }
 
 .menuProd {
   display: flex;
@@ -407,10 +380,15 @@ section h2 {
 .menuProd a {
   padding: 40px; }
 
+.menuProd ul {
+  display: flex;
+  flex-direction: row; }
+
 .headerProd {
   background-color: #5A0AEF;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   grid-column: 1 / 4;
   grid-row: 1; }
@@ -479,9 +457,7 @@ section h2 {
 .footerNos {
   bottom: 0;
   margin-top: auto;
-  color: white;
-  position: absolute;
-  width: 100%; }
+  color: white; }
 
 /* CONTACTANOS */
 /*DONDE ESTAMOS */
@@ -491,6 +467,6 @@ section h2 {
   border-radius: 30px;
   margin: 10px 20px; }
 
-.boton {
-  color: black;
-  background-color: #bb1c1c; }
+.footerDonde {
+  margin: 0;
+  margin-bottom: 0; }

@@ -31,49 +31,9 @@ body{
     background-position: $valor-center $valor-center;
     margin: $sacar-margin;
     min-height: $min-heigth;
+    color: $color-blanco;
+    box-sizing: border-box;
 }
-
-.bodyProd{
-    background-image: url("./ImgAvengers3.jpg");
-    background-repeat:no-repeat ;
-    background-size: cover;
-    background-position: $valor-center $valor-center;
-    margin: $sacar-margin;
-    display: $valor-flex;
-    flex-direction: $valor-column;
-    min-height: $min-heigth;
-}
-
-.body-nosotros{
-    background-image: url("../MULTIMEDIA/Logo-Imagenes/wallpaperbetter.com_1920x1080\ \(4\).jpg");
-    background-position: $valor-center $valor-center;
-    font-size: 0.8rem;
-    position: relative;
-    padding-bottom: 250px;
-    margin: $sacar-margin;
-    
-    
-}
-
-.body-contactanos{
-    background-image: url("../MULTIMEDIA/Logo-Imagenes/Wakanda0.jpg");
-    background-repeat:no-repeat ;
-    background-size: cover;
-    background-position: $valor-center $valor-center;
-    margin: $sacar-margin;
-    min-height: $min-heigth;
-}
-
-.body-donde-estamos{
-    background-image: url("../MULTIMEDIA/Logo-Imagenes/Prueba\ 2.jpg");
-    background-repeat:no-repeat ;
-    background-size: cover;
-    background-position: $valor-center $valor-center;
-    margin: $sacar-margin;
-    min-height: $min-heigth;
-    
-}
-
 
 html{
     scroll-behavior: smooth;
@@ -416,9 +376,7 @@ a{
         font-size: 0.8rem;
     }
 
-    .bodyProd{
-        font-size: 0.6rem;
-    }
+
 
     h2{
         font-size: 1rem;
@@ -632,6 +590,17 @@ footer{
     flex-direction: $valor-column;
     padding: 0.5em;
 }
+
+}
+
+@media only screen and (max-width: 1440px){
+
+
+    footer{
+        display: $valor-flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 
@@ -704,8 +673,9 @@ footer{
 }
 
 .h1-prod{
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: $color-blanco;
+    margin-left: 10px;
 
 }
 
@@ -732,10 +702,20 @@ footer{
 
 }
 
+.menuProd{
+
+    ul{
+        display: $valor-flex;
+        flex-direction: row;
+    }
+
+}
+
 .headerProd{
     background-color: #5A0AEF;
     display: $valor-flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: $valor-center;
     grid-column: 1 / 4;
     grid-row: 1;
@@ -821,8 +801,7 @@ footer{
     bottom: 0;
     margin-top: $valor-auto;
     color: $color-blanco;
-    position: $absolute;
-    width: $width-heigth-100;
+
 }
 /* CONTACTANOS */
 
@@ -835,10 +814,9 @@ footer{
     margin: 10px 20px;
 }
 
-
-
-.boton{
-    color: $color-negro;
-    background-color: #bb1c1c;
-    
+.footerDonde{
+    margin: $sacar-margin;
+    margin-bottom: $sacar-margin;
 }
+
+
