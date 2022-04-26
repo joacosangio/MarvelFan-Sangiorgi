@@ -111,9 +111,7 @@ footer{
     justify-content: space-evenly;
     background-color:#505153af;
     text-align: $valor-center;
-    padding: 0px;
     margin-top: $valor-auto;
-    bottom: 0;
 
 }
 
@@ -804,6 +802,52 @@ footer{
 
 }
 /* CONTACTANOS */
+
+.formulario{
+    color: $color-blanco;
+    padding: 2em;
+    margin-left: 10px;
+}
+
+.h2-cont{
+    padding: $gap;
+    margin-bottom: 30px;
+}
+
+.mail-wpp-cont{
+    padding: $gap;
+    margin-top: 30px;
+}
+
+.tenes-preg{
+    margin-bottom: 2em;
+    font-size: 2rem;
+}
+
+.dudas{
+    color: $color-blanco;
+    width: 300px;
+    height: 100px;
+
+}
+
+.cualquier-duda{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+.footer-cont{
+
+    p{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
 
 /*DONDE ESTAMOS */
 
