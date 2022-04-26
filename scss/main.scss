@@ -1,3 +1,10 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
 
 $color-negro: black;
 $sacar-margin: 0;
@@ -21,7 +28,12 @@ $hidden: hidden;
 $absolute: absolute;
 
 
-
+.navIndex{
+    background-color: #505153af;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    width: $width-heigth-100;
+}
 
 body{
     font-family: 'Oswald', sans-serif;
@@ -56,10 +68,7 @@ a{
     gap: $gap;
 }
 
-.logo{
-    grid-column: 1 / 3;
-    grid-row: 1;
-}
+
 
 header{
     background-color: #505153af;
@@ -69,12 +78,6 @@ header{
     min-width: $tamanio-img;
 }
 
-.menu{
-    
-    grid-column: 2 / 3;
-    grid-row: 1;
-    min-width: $tamanio-img;
-}
 
 .grid-section{
     grid-column: 1 / 2;
@@ -86,6 +89,10 @@ header{
     a{
     color: $color-negro;
     font-weight: bold;
+
+        &:hover{
+            color: red;
+        }
     }
     
 }
@@ -111,7 +118,6 @@ footer{
     justify-content: space-evenly;
     background-color:#505153af;
     text-align: $valor-center;
-    margin-top: $valor-auto;
 
 }
 
@@ -176,12 +182,6 @@ footer{
 
 
 
-.menuFlex{
-    display: $valor-flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items:$valor-center;
-}
 
 
 .fila1-Img{
@@ -320,80 +320,31 @@ footer{
     font-family:'Times New Roman', Times, serif;
     display: $valor-flex;
     position: $absolute;
-    transform: translate(100px, -60px);
+    transform: translate(100px, -40px );
     color: $color-blanco;
+    margin-right: 10px;
 }
 
-a{
 
-    &:hover{
+li{
+    a{
 
-        color:rgb(252, 0, 0);
+        &:hover{
 
-    }
-}
-
-.menuindex{
-    display:$valor-flex;
-    justify-content: space-between;
-}
-
-.menuindex{
-
-    nav{
-
-        ul{
-
-            display:$valor-flex;
-            justify-content: space-around;
-            margin: 5px;
+            color:rgb(252, 0, 0);
 
         }
-
     }
-
 }
-
-.menuFlex{
-
-    li{
-
-        display:$valor-flex;
-        justify-content: space-around;
-        padding: 5px;
-
-    }
-
-}
-
 /* MEDIAS QUERIES*/
 
 @media only screen and (max-width:600px){
-
-    body{
-        font-size: 0.8rem;
-    }
-
 
 
     h2{
         font-size: 1rem;
     }
 
-    .menuFlex{
-        display:$valor-flex;
-        flex-direction: $valor-column;
-        justify-items: $valor-center;
-        align-items: $valor-center;
-        justify-content: space-around;
-    }
-
-    .menu{
-        display:$valor-flex;
-        flex-direction: $valor-column;
-        align-items: $valor-center;
-    }
-    
 
     .fila1-Img{
     
@@ -487,20 +438,8 @@ a{
         align-items: $valor-center;
     }
 
-    footer{
-        width: $width-heigth-100;
-        height: $valor-auto;
-        grid-column: 1 / 3;
-        align-items: $valor-center;
-        justify-content: $valor-center;
-        justify-items: $valor-center;
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        padding: 0;
-        margin: $sacar-margin;
-        font-size: 0.5rem;
 
-    }
+
 
     .h1-prod{
         font-size: 0.8rem;
@@ -516,26 +455,9 @@ a{
         justify-items: $valor-center;
     }
 
-    .menuProd{
+
+
     
-    a{
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        padding: 3px;
-        margin: 5px;
-        font-size: 1.2rem;
-    }
-
-}
-
-
-
-    .headerProd{
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        height: $width-heigth-100;
-
-    }
 
     section{
     
@@ -546,26 +468,6 @@ a{
 }
 
 @media only screen and (max-width:768px){
-
-    .headerProd{
-    display: $valor-flex;
-    flex-direction: $valor-column;
-}
-
-.menuProd{
-
-    a{
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        padding: 0;
-    }
-
-}
-
-.menuFlex{
-    display: $valor-flex;
-    flex-direction: $valor-column;
-}
 
 .imagenes-grid{
     display: $valor-flex;
@@ -583,11 +485,7 @@ a{
 }
     
 
-footer{
-    display: $valor-flex;
-    flex-direction: $valor-column;
-    padding: 0.5em;
-}
+
 
 }
 
@@ -606,6 +504,18 @@ footer{
 
 
 /* PRODUCTOS */
+
+.navProd{
+    background-color: #5A0AEF;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .productos-grid-cont{
     display: $valor-grids;
@@ -838,13 +748,6 @@ footer{
 
 
 
-.footer-cont{
-
-    p{
-        font-size: 1.3rem;
-    }
-
-}
 
 
 
@@ -858,9 +761,5 @@ footer{
     margin: 10px 20px;
 }
 
-.footerDonde{
-    margin: $sacar-margin;
-    margin-bottom: $sacar-margin;
-}
 
 

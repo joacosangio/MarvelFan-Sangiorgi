@@ -6,34 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarvelFan | Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 
 <body>
 
 <div class="productos-grid-cont">
 
-    <header class="headerProd">
+    <nav class="navProd navbar navbar-expand-lg navbar-light text-white">
 
-        <h1 class="h1-prod">Productos</h1>
+        <a class="navbar-brand text-white" href="#">Productos</a>
 
-            <nav class=menuProd>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <ul>
-                    <a href="#nuestrasTazas">Tazas</a>
+        <div class="div-nav collapse navbar-collapse" id="navbarNav">
 
-                    <a href="#nuestrosStickers">Stickers</a>
+            <ul class="navbar-nav">
 
-                    <a href="#nuestrosMates">Mates</a>
+                <li class="nav-item active">
+                <a class="nav-link text-white" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-                    <a href="#nuestrasRemeras">Remeras</a>
+                <li class="nav-item">
+                <a class="nav-link text-white" href="#nuestrasTazas">Tazas</a>
+                </li>
 
-                    <a href="#nuestrosVasos">Vasos</a>
-                
-                </ul>
+                <li class="nav-item">
+                <a class="nav-link text-white" href="#nuestrosMates">Mates</a>
+                </li>
 
-            </nav>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#nuestrasRemeras">Remeras</a>
+                </li>
 
-    </header>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#nuestrosStickers">Stickers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#nuestrosVasos">Vasos</a>
+                </li>
+
+            </ul>
+
+        </div>
+        
+    </nav>
 
 
     <section id="nuestrosMates">
@@ -190,39 +210,47 @@
 
 
 
-<footer>
+<footer class="footerNos">
 
-    <div>
+        <nav class="row text-center">
 
-        <h3>Contactanos</h3>
+            <div class="col-xs-12 col-md-6 col-xl-6 list-unstyled text-white">
 
-        <ul>
+                <p class="font-weight-bold text-uppercase">Contacto</p>
 
-            <li><a href="tel:+541133056580">WhatsApp: 1133056580</a></li>
+                <ul >
 
-            <li><a href="mailto:joaquinsangiorgi2002@gmail.com">Email: joaquinsangiorgi2002@gmail.com</a></li>
+                    <li><a class="text-white" href="tel:+541133056580">WhatsApp: 1133056580</a></li>
+                    
+                    <li><a class="text-white" href="mailto:joaquinsangiorgi2002@gmail.com">Email: joaquinsangiorgi2002@gmail.com</a></li>
 
-        </ul>
+                </ul>
 
-    </div>
+            </div>
 
-    <div>
 
-        <h3>Seguinos en redes</h3>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
-        <ul>
+            <p class="font-weigth-bold text-uppercase">Redes Sociales</p>
 
-            <li><a href="https://www.instagram.com/joacosangio/">Instagram</a></li>
-                
-            <li><a href="https://twitter.com/JSangii">Twitter</a></li>
-                
-        </ul>
+            <ul class="list-unstyled"> 
 
-    </div>
+                    <li><a class="text-white" href="https://www.instagram.com/joacosangio/">Instagram</a></li>
+
+                    <li><a class="text-white" href="https://twitter.com/JSangii">Twitter </a></li>
+
+            </ul>
+
+        </div>
+
+        </nav>
 
 </footer>
 
 </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
 </body>
 
