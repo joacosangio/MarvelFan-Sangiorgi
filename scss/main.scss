@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+$color-nav: #505153af;
 $color-negro: black;
 $sacar-margin: 0;
 $color-blanco: white;
@@ -31,14 +31,14 @@ $absolute: absolute;
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@300&display=swap');
 
 .navIndex{
-    background-color: #505153af;
+    background-color: $color-nav;
     grid-column: 1 / 4;
     grid-row: 1;
     width: $width-heigth-100;
 }
 
 body{
-    background-image:url("./ImgAvengers1.jpg");
+    background-image:url("./ImgAvengers3.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: $valor-center $valor-center;
@@ -68,15 +68,6 @@ a{
     gap: $gap;
 }
 
-
-
-header{
-    background-color: #505153af;
-    margin: $sacar-margin;
-    display: $valor-flex;
-    align-items: $valor-center;
-    min-width: $tamanio-img;
-}
 
 
 .grid-section{
@@ -115,7 +106,7 @@ footer{
     display: $valor-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:#505153af;
+    background-color:$color-nav;
     text-align: $valor-center;
 
 }
@@ -504,7 +495,7 @@ li{
 /* PRODUCTOS */
 
 .navProd{
-    background-color: #5A0AEF;
+    background-color:$color-nav;
     grid-column: 1 / 4;
     display: flex;
     justify-content: space-around;
@@ -593,37 +584,6 @@ li{
     padding: 1px;
     width: 70%;
     font-size: 20px;
-}
-
-
-
-
-.menuProd{
-
-    a{
-        padding: 40px;
-
-    }
-
-}
-
-.menuProd{
-
-    ul{
-        display: $valor-flex;
-        flex-direction: row;
-    }
-
-}
-
-.headerProd{
-    background-color:#505153af;
-    display: $valor-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: $valor-center;
-    grid-column: 1 / 4;
-    grid-row: 1;
 }
 
 

@@ -12,7 +12,7 @@
   width: 100%; }
 
 body {
-  background-image: url("./ImgAvengers1.jpg");
+  background-image: url("./ImgAvengers3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -36,13 +36,6 @@ a {
   grid-template-columns: repeat(2, 1fr);
   margin: 0;
   gap: 1em; }
-
-header {
-  background-color: #505153af;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  min-width: 200px; }
 
 .grid-section {
   grid-column: 1 / 2;
@@ -262,7 +255,7 @@ section h2 {
 
 /* PRODUCTOS */
 .navProd {
-  background-color: #5A0AEF;
+  background-color: #505153af;
   grid-column: 1 / 4;
   display: flex;
   justify-content: space-around; }
@@ -314,22 +307,6 @@ section h2 {
   padding: 1px;
   width: 70%;
   font-size: 20px; }
-
-.menuProd a {
-  padding: 40px; }
-
-.menuProd ul {
-  display: flex;
-  flex-direction: row; }
-
-.headerProd {
-  background-color: #505153af;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  grid-column: 1 / 4;
-  grid-row: 1; }
 
 #nuestrosMates {
   grid-column: 1 / 2;
