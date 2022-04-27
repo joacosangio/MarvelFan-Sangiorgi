@@ -38,7 +38,7 @@ $absolute: absolute;
 }
 
 body{
-    background-image:url("./ImgAvengers3.jpg");
+    background-image:url("/MULTIMEDIA/Logo-Imagenes/ImgAvengers3.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     background-position: $valor-center $valor-center;
@@ -192,7 +192,7 @@ footer{
 
     p{
         font-size: 2rem;
-        transform: translate(50px, -130px);
+        transform: translate(60px, -130px);
         color: $color-negro;
     }
     
