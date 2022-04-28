@@ -12,7 +12,7 @@
   width: 100%; }
 
 body {
-  background-image: url("/MULTIMEDIA/Logo-Imagenes/ImgAvengers3.jpg");
+  background-image: url("./MULTIMEDIA/Logo-Imagenes/ImgAvengers3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -115,7 +115,7 @@ footer h2 {
 
 .fila1-Img p {
   font-size: 2rem;
-  transform: translate(60px, -130px);
+  transform: translate(0px, -130px);
   color: black; }
 
 .fila1-Img img:hover {
