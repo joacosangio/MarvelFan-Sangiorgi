@@ -543,11 +543,6 @@ li{
 }
 
 
-
-
-
-
-
 /*DONDE ESTAMOS */
 
 .imgMapa{
@@ -557,5 +552,14 @@ li{
     margin: 10px 20px;
 }
 
+.link-donde{
+    display: $valor-flex;
+    align-items: $valor-center;
+    justify-items: $valor-center;
+    justify-content: $valor-center;
+    min-height: 300px;
+    font-size: 1.5rem;
+}
 
-@import "mediaqueries" ;
+
+@import "mediaqueries" ; 
