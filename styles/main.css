@@ -175,85 +175,6 @@ footer h2 {
 li a:hover {
   color: #fc0000; }
 
-/* MEDIAS QUERIES*/
-@media only screen and (max-width: 600px) {
-  h2 {
-    font-size: 1rem; }
-  .fila1-Img img {
-    width: 150px;
-    height: 150px; }
-  .fila2-Img img {
-    width: 150px;
-    height: 150px; }
-  .fila3-Img img {
-    width: 150px;
-    height: 150px; } }
-
-.fila1-Img p {
-  font-size: 1.5rem;
-  transform: translate(30px, -105px);
-  color: black; }
-
-.fila2-Img p {
-  font-size: 1.5rem;
-  transform: translate(0px, -105px);
-  color: black; }
-
-.fila3-Img p {
-  font-size: 1.5rem;
-  transform: translate(40px, -105px);
-  color: black; }
-
-.aside {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  justify-content: center; }
-
-.imagenes-grid {
-  width: auto;
-  height: auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center; }
-
-.h1-prod {
-  font-size: 0.8rem;
-  padding: 10px;
-  font-size: 1rem; }
-
-#nuestrosVasos {
-  margin: 130px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  justify-items: center; }
-
-section h2 {
-  font-size: 1rem; }
-
-@media only screen and (max-width: 768px) {
-  .imagenes-grid {
-    display: flex;
-    flex-direction: column; }
-  .fila2-Img {
-    display: flex;
-    align-items: flex-start; }
-  .aside {
-    display: flex;
-    margin: right 200px; } }
-
-@media only screen and (max-width: 1440px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; } }
-
 /* PRODUCTOS */
 .navProd {
   background-color: #505153af;
@@ -379,7 +300,8 @@ section h2 {
 .formulario {
   color: white;
   padding: 2em;
-  margin-left: 10px; }
+  margin-left: 10px;
+  min-height: auto; }
 
 .h2-cont {
   padding: 1em;
@@ -408,3 +330,73 @@ section h2 {
   padding: 1em;
   border-radius: 30px;
   margin: 10px 20px; }
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1rem; }
+  .fila1-Img img {
+    width: 150px;
+    height: 150px; }
+  .fila2-Img img {
+    width: 150px;
+    height: 150px; }
+  .fila3-Img img {
+    width: 150px;
+    height: 150px; }
+  .fila1-Img p {
+    font-size: 1.5rem;
+    transform: translate(30px, -105px);
+    color: black; }
+  .fila2-Img p {
+    font-size: 1.5rem;
+    transform: translate(0px, -105px);
+    color: black; }
+  .fila3-Img p {
+    font-size: 1.5rem;
+    transform: translate(40px, -105px);
+    color: black; }
+  .aside {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center; }
+  .imagenes-grid {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center; }
+  .h1-prod {
+    font-size: 0.8rem;
+    padding: 10px;
+    font-size: 1rem; }
+  #nuestrosVasos {
+    margin: 130px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center; }
+  section h2 {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 768px) {
+  .imagenes-grid {
+    display: flex;
+    flex-direction: column; }
+  .fila2-Img {
+    display: flex;
+    align-items: flex-start; }
+  .aside {
+    display: flex;
+    margin: right 200px; } }
+
+@media only screen and (max-width: 1440px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }

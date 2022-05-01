@@ -30,6 +30,8 @@ $absolute: absolute;
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@300&display=swap');
 
+
+
 .navIndex{
     
     background-color: $color-nav;
@@ -327,172 +329,6 @@ li{
         }
     }
 }
-/* MEDIAS QUERIES*/
-
-@media only screen and (max-width:600px){
-
-
-    h2{
-        font-size: 1rem;
-    }
-
-
-    .fila1-Img{
-    
-    img{
-
-        width:$tamanio-img2 ;
-        height: $tamanio-img2;
-
-    }
-
-}
-
-    .fila2-Img{
-    
-    img{
-
-        width: $tamanio-img2;
-        height: $tamanio-img2;
-
-    }
-
-}
-
-    .fila3-Img{ 
-    
-    img{
-
-        width: $tamanio-img2;
-        height: $tamanio-img2;
-
-    }
-
-}
-
-}
-
-    .fila1-Img{
-    
-    p{
-
-        font-size: 1.5rem;
-        transform: translate(30px, -105px);
-        color: $color-negro;
-
-    }
-
-}
-
-
-    .fila2-Img{
-    
-    p{
-
-        font-size: 1.5rem;
-        transform: translate(0px, -105px);
-        color: $color-negro;
-
-    }
-
-}
-
-    .fila3-Img{
-    
-    p{
-
-        font-size: 1.5rem;
-        transform: translate(40px, -105px);
-        color: $color-negro;
-
-    }
-
-}
-
-    .aside{
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        justify-items: $valor-center;
-        align-items: $valor-center;
-        justify-content: $valor-center;
-    }
-
-    .imagenes-grid{
-        width: $valor-auto;
-        height: $valor-auto;
-        padding: 10px;
-        display: $valor-flex;
-        flex-direction: $valor-column;
-        justify-content: $valor-center;
-        align-content: $valor-center;
-        justify-items: $valor-center;
-        align-items: $valor-center;
-    }
-
-
-
-
-    .h1-prod{
-        font-size: 0.8rem;
-        padding: 10px;
-        font-size:1rem ;
-    }
-
-    #nuestrosVasos{
-        margin: 130px;
-        align-items: $valor-center;
-        justify-content: $valor-center;
-        text-align: $valor-center;
-        justify-items: $valor-center;
-    }
-
-
-
-    
-
-    section{
-    
-    h2{
-        font-size: 1rem;
-    }
-
-}
-
-@media only screen and (max-width:768px){
-
-.imagenes-grid{
-    display: $valor-flex;
-    flex-direction: $valor-column;
-}
-
-.fila2-Img{
-    display: $valor-flex;
-    align-items: flex-start;
-}
-
-.aside{
-    display: $valor-flex;
-    margin: right $tamanio-img;
-}
-    
-
-
-
-}
-
-@media only screen and (max-width: 1440px){
-
-
-    footer{
-        display: $valor-flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}
-
-
-
-
 
 /* PRODUCTOS */
 
@@ -676,6 +512,7 @@ li{
     color: $color-blanco;
     padding: 2em;
     margin-left: 10px;
+    min-height: auto;
 }
 
 .h2-cont{
@@ -721,4 +558,4 @@ li{
 }
 
 
-
+@import "mediaqueries" ;
