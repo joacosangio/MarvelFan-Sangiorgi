@@ -8,8 +8,7 @@
 .navIndex {
   background-color: #505153af;
   grid-column: 1 / 4;
-  grid-row: 1;
-  width: 100%; }
+  grid-row: 1; }
 
 body {
   background-image: url("../MULTIMEDIA/Logo-Imagenes/ImgAvengers3.jpg");
@@ -54,7 +53,8 @@ a {
   flex-direction: column;
   text-align: center;
   padding: 10px;
-  color: white; }
+  color: white;
+  min-height: 900px; }
 
 footer {
   grid-column: 1 / 3;
@@ -62,8 +62,7 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #505153af;
-  text-align: center;
-  bottom: 0; }
+  text-align: center; }
 
 footer p {
   text-align: center;
@@ -116,7 +115,7 @@ footer h2 {
 
 .fila1-Img p {
   font-size: 2rem;
-  transform: translate(0px, -130px);
+  transform: translate(40px, -130px);
   color: black; }
 
 .fila1-Img img:hover {
@@ -180,7 +179,8 @@ li a:hover {
   background-color: #505153af;
   grid-column: 1 / 4;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  position: sticky; }
 
 .div-nav {
   display: flex;
@@ -292,9 +292,8 @@ li a:hover {
 
 /* NOSOTROS */
 .footerNos {
-  bottom: 0;
-  margin-top: auto;
-  color: white; }
+  color: white;
+  margin-top: 500px; }
 
 /* CONTACTANOS */
 .formulario {

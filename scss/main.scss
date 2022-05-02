@@ -37,7 +37,6 @@ $absolute: absolute;
     background-color: $color-nav;
     grid-column: 1 / 4;
     grid-row: 1;
-    width: $width-heigth-100;
 }
 
 body{
@@ -99,6 +98,7 @@ a{
     text-align: $valor-center;
     padding: 10px;
     color: $color-blanco;
+    min-height: 900px;
 
 }
 
@@ -111,7 +111,6 @@ footer{
     justify-content: space-evenly;
     background-color:$color-nav;
     text-align: $valor-center;
-    bottom: $sacar-margin;
 
 }
 
@@ -146,9 +145,6 @@ footer{
     padding: 20px;
 }
 
-
-
-
 .fila1-Img{
     grid-column: 1 / 2;
     grid-row: 1;
@@ -174,10 +170,6 @@ footer{
     flex-direction: $valor-column;
 }
 
-
-
-
-
 .fila1-Img{
 
     img{
@@ -196,7 +188,7 @@ footer{
 
     p{
         font-size: 2rem;
-        transform: translate(0px, -130px);
+        transform: translate(40px, -130px);
         color: $color-negro;
     }
     
@@ -337,6 +329,7 @@ li{
     grid-column: 1 / 4;
     display: flex;
     justify-content: space-around;
+    position: sticky;
 }
 
 .div-nav{
@@ -501,9 +494,9 @@ li{
 /* NOSOTROS */
 
 .footerNos{
-    bottom: 0;
-    margin-top: $valor-auto;
     color: $color-blanco;
+    margin-top: 500px;
+
 
 }
 /* CONTACTANOS */
