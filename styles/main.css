@@ -293,7 +293,8 @@ li a:hover {
 
 /* NOSOTROS */
 .footerNos {
-  color: white; }
+  color: white;
+  margin-top: 300px; }
 
 .quienes-somos, .que-queremos {
   color: white;
