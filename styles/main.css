@@ -79,9 +79,10 @@ footer h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 1em;
   justify-items: center;
-  padding: 20px; }
+  margin: 0;
+  padding: 1em;
+  gap: 1em; }
 
 .fila1-Img {
   grid-column: 1 / 2;

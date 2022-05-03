@@ -38,6 +38,11 @@ $absolute: absolute;
 
 }
 
+@mixin wi-he ($width, $heigth) {
+    width: $width;
+    height: $heigth;
+}
+
 .navIndex{
     
     background-color: $color-nav;
@@ -146,9 +151,8 @@ footer{
     display: $valor-grids;
     grid-template-columns: repeat(3, $fraccion);
     grid-template-rows: repeat(1, $fraccion);
-    gap: $gap;
     justify-items: $valor-center;
-    padding: 20px;
+    @include sizes(0, 1em , 1em);
 }
 
 .fila1-Img{
@@ -548,8 +552,7 @@ li{
 
 .dudas{
     color: $color-blanco;
-    width: 300px;
-    height: 100px;
+    @include wi-he(300px, 100px);
 
 }
 
