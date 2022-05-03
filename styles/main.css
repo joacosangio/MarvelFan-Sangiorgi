@@ -292,8 +292,18 @@ li a:hover {
 
 /* NOSOTROS */
 .footerNos {
+  color: white; }
+
+.quienes-somos, .que-queremos {
   color: white;
-  margin-top: 500px; }
+  text-align: center;
+  background-color: #540bf117; }
+
+.que-queremos {
+  background-color: #eeb31228;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
 
 /* CONTACTANOS */
 .formulario {
@@ -326,9 +336,10 @@ li a:hover {
 /*DONDE ESTAMOS */
 .imgMapa {
   width: 100%;
-  padding: 1em;
   border-radius: 30px;
-  margin: 10px 20px; }
+  margin: 10px 20px;
+  padding: 1em;
+  gap: 1em; }
 
 .link-donde {
   display: flex;
@@ -337,6 +348,21 @@ li a:hover {
   justify-content: center;
   min-height: 300px;
   font-size: 1.5rem; }
+
+.h2-mates {
+  color: #570c61; }
+
+.h2-tazas {
+  color: #A769F4; }
+
+.h2-vasos {
+  color: #FDFDFD; }
+
+.h2-stickers {
+  color: #0015FD; }
+
+.h2-remeras {
+  color: #EE0808; }
 
 @media only screen and (max-width: 600px) {
   h2 {

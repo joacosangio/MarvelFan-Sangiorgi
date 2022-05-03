@@ -30,7 +30,13 @@ $absolute: absolute;
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:wght@300&display=swap');
 
+@mixin sizes ($margin, $padding, $gap) {
 
+    margin: $margin;
+    padding: $padding;
+    gap: $gap;
+
+}
 
 .navIndex{
     
@@ -495,10 +501,27 @@ li{
 
 .footerNos{
     color: $color-blanco;
-    margin-top: 500px;
+}
 
+.quienes-somos{
+    color:$color-blanco;
+    text-align: $valor-center;
+    background-color: #540bf117;
 
 }
+
+.que-queremos{
+    @extend .quienes-somos;
+    background-color: #eeb31228;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+
+
+
 /* CONTACTANOS */
 
 .formulario{
@@ -536,13 +559,15 @@ li{
 }
 
 
+
+
 /*DONDE ESTAMOS */
 
 .imgMapa{
     width: $width-heigth-100;
-    padding: $gap;
     border-radius: 30px;
-    margin: 10px 20px;
+
+    @include sizes(10px 20px, 1em , 1em);
 }
 
 .link-donde{
@@ -553,6 +578,44 @@ li{
     min-height: 300px;
     font-size: 1.5rem;
 }
+
+
+$color-titulos:(
+    violetaosc: rgb(87, 12, 97),
+    violetaclaro: #A769F4,
+    rojo:#EE0808,
+    azul:#0015FD,
+    blanco: #FDFDFD
+);
+
+.h2-mates{
+    color: map-get($map: $color-titulos , $key: violetaosc);
+}
+
+.h2-tazas{
+    color: map-get($map: $color-titulos, $key: violetaclaro);
+}
+
+.h2-vasos{
+    color: map-get($map: $color-titulos , $key: blanco);
+}
+
+.h2-stickers{
+    color: map-get($map: $color-titulos , $key: azul);
+}
+
+.h2-remeras{
+    color: map-get($map: $color-titulos , $key: rojo);
+}
+
+
+
+
+
+
+
+
+
 
 
 @import "mediaqueries" ; 
