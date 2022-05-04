@@ -294,7 +294,7 @@ li a:hover {
 /* NOSOTROS */
 .footerNos {
   color: white;
-  margin-top: 300px; }
+  margin-top: 500px; }
 
 .quienes-somos, .que-queremos {
   color: white;
@@ -307,11 +307,15 @@ li a:hover {
   flex-direction: column;
   align-content: center; }
 
+.nosotrostext {
+  margin-bottom: 200px; }
+
 /* CONTACTANOS */
 .formulario {
   color: white;
   padding: 2em;
   margin-left: 10px;
+  margin-top: 10px;
   min-height: auto; }
 
 .h2-cont {
