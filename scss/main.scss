@@ -305,12 +305,7 @@ footer{
 
 }
 
-.imgLogo{
-    width: 80px;
-    border-radius: 5px;
-    box-shadow: 2px 3px 5px;
-    margin-left: 5px;
-}
+
 
 .marvelFan{
     display: $valor-flex;
@@ -407,6 +402,13 @@ li{
 
     }
 
+}
+
+.imgLogo{
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px;
+    margin-left: 5px;
 }
 
 .h1-prod{
