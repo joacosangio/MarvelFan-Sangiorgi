@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 .navIndex {
-  background-color: #505153af;
+  background-color: #505153;
   grid-column: 1 / 4;
   grid-row: 1; }
 
@@ -61,8 +61,11 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #505153af;
-  text-align: center; }
+  background-color: #505153;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
 
 footer p {
   text-align: center;
@@ -177,7 +180,7 @@ li a:hover {
 
 /* PRODUCTOS */
 .navProd {
-  background-color: #505153af;
+  background-color: #505153;
   grid-column: 1 / 4;
   display: flex;
   justify-content: space-around;

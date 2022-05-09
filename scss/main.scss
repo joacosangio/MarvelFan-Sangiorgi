@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-$color-nav: #505153af;
+$color-nav: #505153;
 $color-negro: black;
 $sacar-margin: 0;
 $color-blanco: white;
@@ -122,6 +122,9 @@ footer{
     justify-content: space-evenly;
     background-color:$color-nav;
     text-align: $valor-center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 
 }
 
@@ -305,7 +308,12 @@ footer{
 
 }
 
-
+.imgLogo{
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px;
+    margin-left: 5px;
+}
 
 .marvelFan{
     display: $valor-flex;
@@ -402,13 +410,6 @@ li{
 
     }
 
-}
-
-.imgLogo{
-    width: 80px;
-    border-radius: 5px;
-    box-shadow: 2px 3px 5px;
-    margin-left: 5px;
 }
 
 .h1-prod{
