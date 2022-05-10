@@ -35,8 +35,7 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0;
-  gap: 1em; }
+  margin: 0; }
 
 .grid-section {
   grid-column: 1 / 2;
@@ -65,7 +64,6 @@ footer {
   background-color: #505153;
   text-align: center;
   position: sticky;
-  width: 100%;
   bottom: 0; }
 
 footer p {
@@ -78,10 +76,6 @@ footer h2 {
   text-align: center;
   align-items: center;
   color: white; }
-
-.footer-index {
-  position: sticky;
-  bottom: 0; }
 
 .imagenes-grid {
   display: grid;
@@ -307,11 +301,9 @@ li a:hover {
 
 .quienes-somos, .que-queremos {
   color: white;
-  text-align: center;
-  background-color: #540bf117; }
+  text-align: center; }
 
 .que-queremos {
-  background-color: #eeb31228;
   display: flex;
   flex-direction: column;
   align-content: center; }
