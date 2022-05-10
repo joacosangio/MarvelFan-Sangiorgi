@@ -48,6 +48,7 @@ $absolute: absolute;
     background-color: $color-nav;
     grid-column: 1 / 4;
     grid-row: 1;
+    margin-bottom: 50px;
 }
 
 body{
@@ -109,7 +110,6 @@ a{
     text-align: $valor-center;
     padding: 10px;
     color: $color-blanco;
-    min-height: 900px;
 
 }
 
@@ -122,7 +122,7 @@ footer{
     justify-content: space-evenly;
     background-color:$color-nav;
     text-align: $valor-center;
-    position: fixed;
+    position: sticky;
     width: 100%;
     bottom: 0;
 
@@ -508,7 +508,6 @@ li{
 
 .footerNos{
     color: $color-blanco;
-    margin-top: 500px;
 }
 
 .quienes-somos{
@@ -528,7 +527,7 @@ li{
 }
 
 .nosotrostext{
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 
