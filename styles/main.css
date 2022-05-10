@@ -78,6 +78,10 @@ footer h2 {
   align-items: center;
   color: white; }
 
+.footer-index {
+  position: sticky;
+  bottom: 0; }
+
 .imagenes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -296,7 +300,9 @@ li a:hover {
 
 /* NOSOTROS */
 .footerNos {
-  color: white; }
+  color: white;
+  position: sticky;
+  bottom: 0; }
 
 .quienes-somos, .que-queremos {
   color: white;
@@ -354,7 +360,7 @@ li a:hover {
   align-items: center;
   justify-items: center;
   justify-content: center;
-  min-height: 300px;
+  min-height: 100px;
   font-size: 1.5rem; }
 
 .h2-mates {
