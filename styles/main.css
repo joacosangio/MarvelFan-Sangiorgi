@@ -298,7 +298,8 @@ li a:hover {
 /* NOSOTROS */
 .footerNos {
   color: white;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   bottom: 0;
   margin-top: auto; }
 
