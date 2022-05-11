@@ -309,7 +309,8 @@ li a:hover {
 .que-queremos {
   display: flex;
   flex-direction: column;
-  align-content: center; }
+  align-content: center;
+  margin-top: 70px; }
 
 .nosotrostext {
   margin-bottom: 50px; }
