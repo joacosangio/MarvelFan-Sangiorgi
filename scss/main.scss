@@ -110,6 +110,7 @@ a{
     text-align: $valor-center;
     padding: 10px;
     color: $color-blanco;
+    min-height: calc(100vh - 100px - 400px) ;
 
 }
 
