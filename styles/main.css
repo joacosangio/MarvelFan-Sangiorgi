@@ -65,7 +65,8 @@ footer {
   background-color: #505153;
   text-align: center;
   position: sticky;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: auto; }
 
 footer p {
   text-align: center;
@@ -298,7 +299,8 @@ li a:hover {
 .footerNos {
   color: white;
   position: sticky;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: auto; }
 
 .quienes-somos, .que-queremos {
   color: white;
