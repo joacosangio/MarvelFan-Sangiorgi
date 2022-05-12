@@ -80,6 +80,7 @@ a{
     display: $valor-grids;
     grid-template-columns: repeat(2, $fraccion);
     margin: $sacar-margin;
+    height:calc(100vh - -145px) ;
 }
 
 
@@ -110,7 +111,6 @@ a{
     text-align: $valor-center;
     padding: 10px;
     color: $color-blanco;
-    min-height: calc(100vh - 100px - 400px) ;
 
 }
 
@@ -338,6 +338,11 @@ li{
     }
 }
 
+.footer-index{
+    height: 145px;
+    bottom: 0;
+}
+
 /* PRODUCTOS */
 
 .navProd{
@@ -511,8 +516,7 @@ li{
 
 .footerNos{
     color: $color-blanco;
-    position:fixed;
-    width: 100%;
+    position: sticky;
     bottom: 0;
     margin-top: auto;
 }
