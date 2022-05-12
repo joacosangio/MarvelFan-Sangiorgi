@@ -414,6 +414,10 @@ li a:hover {
     align-content: center;
     justify-items: center;
     align-items: center; }
+  .mainContainer {
+    height: calc(100vh - -550px); }
+  .footerNos {
+    height: 250px; }
   .h1-prod {
     font-size: 0.8rem;
     padding: 10px;
@@ -428,6 +432,8 @@ li a:hover {
     font-size: 1rem; } }
 
 @media only screen and (max-width: 768px) {
+  .grid-container {
+    height: calc(100vh - -900px); }
   .imagenes-grid {
     display: flex;
     flex-direction: column; }
