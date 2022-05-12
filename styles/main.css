@@ -9,7 +9,8 @@
   background-color: #505153;
   grid-column: 1 / 4;
   grid-row: 1;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  max-height: 120px; }
 
 body {
   background-image: url("../MULTIMEDIA/Logo-Imagenes/ImgAvengers3.jpg");
@@ -229,16 +230,6 @@ li a:hover {
   color: white;
   margin-left: 10px; }
 
-.menuProd {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1px;
-  width: 70%;
-  font-size: 20px; }
-
 #nuestrosMates {
   grid-column: 1 / 2;
   grid-row: 2;
@@ -380,6 +371,10 @@ li a:hover {
   color: #EE0808; }
 
 @media only screen and (max-width: 600px) {
+  .grid-container {
+    height: calc(100vh - -800px); }
+  .footer-index {
+    height: 280px; }
   h2 {
     font-size: 1rem; }
   .fila1-Img img {

@@ -49,6 +49,7 @@ $absolute: absolute;
     grid-column: 1 / 4;
     grid-row: 1;
     margin-bottom: 50px;
+    max-height: 120px;
 }
 
 body{
@@ -427,16 +428,7 @@ li{
 
 }
 
-.menuProd{
-    display: $valor-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: $valor-center;
-    padding: 1px;
-    width: 70%;
-    font-size: 20px;
-}
+
 
 
 #nuestrosMates{
