@@ -176,4 +176,21 @@
         justify-content: space-around;
     }
 
+
+}
+
+@media only screen and (min-width: 1440px){
+
+    .grid-container{
+        height: calc(100vh - 100px);
+    }
+
+    .mainContainer{
+        height: calc(100vh - 150px);
+    }
+
+    .footerNos{
+        height: 165px;
+    }
+
 }
