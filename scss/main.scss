@@ -514,11 +514,15 @@ li{
 
 /* NOSOTROS */
 
+.mainContainer{
+    height: calc(100vh - -100px);
+}
+
 .footerNos{
     color: $color-blanco;
     position: sticky;
     bottom: 0;
-    margin-top: auto;
+    height: 145px;
 }
 
 .quienes-somos{

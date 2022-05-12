@@ -300,11 +300,14 @@ li a:hover {
   align-items: center; }
 
 /* NOSOTROS */
+.mainContainer {
+  height: calc(100vh - -100px); }
+
 .footerNos {
   color: white;
   position: sticky;
   bottom: 0;
-  margin-top: auto; }
+  height: 145px; }
 
 .quienes-somos, .que-queremos {
   color: white;
