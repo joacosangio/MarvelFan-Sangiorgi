@@ -452,12 +452,16 @@ li a:hover {
   footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .grid-container {
+    height: calc(100vh - -50px); }
+  .mainContainer {
+    height: calc(70vh - -250px); } }
 
 @media only screen and (min-width: 1440px) {
   .grid-container {
-    height: calc(65vh - -185px); }
+    height: calc(65vh - -285px); }
   .mainContainer {
-    height: calc(55vh - -200px); }
+    height: calc(80vh - -35px); }
   .footerNos {
     height: 165px; } }
