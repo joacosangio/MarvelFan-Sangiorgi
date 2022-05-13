@@ -456,7 +456,7 @@ li a:hover {
 
 @media only screen and (min-width: 1440px) {
   .grid-container {
-    height: calc(65vh - -185px); }
+    height: calc(80vh - -185px); }
   .mainContainer {
     height: calc(55vh - -200px); }
   .footerNos {
