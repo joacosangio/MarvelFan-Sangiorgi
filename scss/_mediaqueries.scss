@@ -142,6 +142,10 @@
 
 }
 
+    .navIndex{
+        max-height: fit-content;
+    }
+
 }
 
 @media only screen and (max-width:768px){
@@ -163,6 +167,10 @@
     .aside{
         display: $valor-flex;
         margin: right $tamanio-img;
+    }
+
+    .navIndex{
+        max-height: fit-content;
     }
     
 }
