@@ -370,11 +370,48 @@ li a:hover {
 .h2-remeras {
   color: #EE0808; }
 
+@media only screen and (max-width: 1440px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .navIndex {
+    max-height: fit-content; } }
+
+@media only screen and (min-width: 1440px) {
+  .grid-container {
+    height: calc(80vh - -185px); }
+  .mainContainer {
+    height: calc(100vh - -140px); }
+  .footerNos {
+    height: 130px; } }
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    height: calc(100vh - -1200px); }
+  .imagenes-grid {
+    display: flex;
+    flex-direction: column; }
+  .fila2-Img {
+    display: flex;
+    align-items: flex-start; }
+  .aside {
+    display: flex;
+    margin: right 200px; }
+  .navIndex {
+    max-height: fit-content; }
+  .mainContainer {
+    height: calc(100vh - -270px); } }
+
 @media only screen and (max-width: 600px) {
   .grid-container {
     height: calc(100vh - -800px); }
   .footer-index {
     height: 280px; }
+  .mainContainer {
+    height: calc(100vh - -500px); }
+  .footerNos {
+    height: 250px; }
   h2 {
     font-size: 1rem; }
   .fila1-Img img {
@@ -414,10 +451,6 @@ li a:hover {
     align-content: center;
     justify-items: center;
     align-items: center; }
-  .mainContainer {
-    height: calc(100vh - -550px); }
-  .footerNos {
-    height: 250px; }
   .h1-prod {
     font-size: 0.8rem;
     padding: 10px;
@@ -432,32 +465,3 @@ li a:hover {
     font-size: 1rem; }
   .navIndex {
     max-height: fit-content; } }
-
-@media only screen and (max-width: 768px) {
-  .grid-container {
-    height: calc(100vh - -900px); }
-  .imagenes-grid {
-    display: flex;
-    flex-direction: column; }
-  .fila2-Img {
-    display: flex;
-    align-items: flex-start; }
-  .aside {
-    display: flex;
-    margin: right 200px; }
-  .navIndex {
-    max-height: fit-content; } }
-
-@media only screen and (max-width: 1440px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; } }
-
-@media only screen and (min-width: 1440px) {
-  .grid-container {
-    height: calc(80vh - -185px); }
-  .mainContainer {
-    height: calc(75vh - -150px); }
-  .footerNos {
-    height: 165px; } }

@@ -1,3 +1,72 @@
+
+@media only screen and (max-width: 1440px){
+
+    footer{
+        display: $valor-flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navIndex{
+        max-height: fit-content;
+    }
+
+
+    
+
+}
+
+@media only screen and (min-width: 1440px){
+
+    .grid-container{
+        height: calc(80vh - -185px);
+    }
+
+    .mainContainer{
+        height: calc(100vh - -140px);
+    }
+
+    .footerNos{
+        height: 130px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    .grid-container{
+        height: calc(100vh - -1200px);
+    }
+
+    .imagenes-grid{
+        display: $valor-flex;
+        flex-direction: $valor-column;
+    }
+
+    .fila2-Img{
+        display: $valor-flex;
+        align-items: flex-start;
+    }
+
+    .aside{
+        display: $valor-flex;
+        margin: right $tamanio-img;
+    }
+
+    .navIndex{
+        max-height: fit-content;
+    }
+
+    .mainContainer{
+        height: calc(100vh - -270px);
+    }
+
+
+    
+}
+
+
+
 @media only screen and (max-width:600px){
 
     .grid-container{
@@ -6,6 +75,14 @@
 
     .footer-index{
         height: 280px;
+    }
+
+    .mainContainer{
+        height: calc(100vh - -500px);
+    }
+
+    .footerNos{
+        height: 250px;
     }
 
     h2{
@@ -105,17 +182,6 @@
     align-items: $valor-center;
 }
 
-    .mainContainer{
-        height: calc(100vh - -550px);
-    }
-
-    .footerNos{
-        height: 250px;
-    }
-
-
-
-
 .h1-prod{
     font-size: 0.8rem;
     padding: 10px;
@@ -129,9 +195,6 @@
     text-align: $valor-center;
     justify-items: $valor-center;
 }
-
-
-
 
 
     section{
@@ -148,59 +211,3 @@
 
 }
 
-@media only screen and (max-width:768px){
-
-    .grid-container{
-        height: calc(100vh - -900px);
-    }
-
-    .imagenes-grid{
-        display: $valor-flex;
-        flex-direction: $valor-column;
-    }
-
-    .fila2-Img{
-        display: $valor-flex;
-        align-items: flex-start;
-    }
-
-    .aside{
-        display: $valor-flex;
-        margin: right $tamanio-img;
-    }
-
-    .navIndex{
-        max-height: fit-content;
-    }
-    
-}
-
-@media only screen and (max-width: 1440px){
-
-
-    footer{
-        display: $valor-flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
-    
-
-}
-
-@media only screen and (min-width: 1440px){
-
-    .grid-container{
-        height: calc(80vh - -185px);
-    }
-
-    .mainContainer{
-        height: calc(75vh - -150px);
-    }
-
-    .footerNos{
-        height: 165px;
-    }
-
-}
